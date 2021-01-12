@@ -1,0 +1,284 @@
+@media screen and ( max-width: 1300px ) {
+    .promo img {
+        width: 100%;
+    }
+}
+
+@media screen and ( max-width: 1285px ) {
+    .dowland_info {
+        display: flex;
+    }
+}
+
+@media screen and ( max-width: 1124px ) {
+    .mail_button {
+        display: grid;
+    }
+    .contacts button {
+        margin-top: 20px;
+    }
+}
+
+@media screen and ( max-width: 1024px ) {
+
+    .promo img {
+        width: 90%;
+    }
+
+    .text_info{
+        width: 45%
+    }
+
+    .info_img {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center; 
+        grid-gap: 2vw;
+    }
+
+    .mr {
+        margin-right: 0; 
+    };
+
+    .promo_text {
+        width: auto;
+    }
+
+    .picturies {
+        margin-left: auto;
+    }
+
+    .get-text{
+        width: 55%;
+    }
+
+    .logo_info{
+        width: 30%;
+    }
+
+    .icon {
+        padding-left: 55%;
+    }
+}
+
+@media screen and ( max-width: 1020px ) {
+    .picturies {
+        display: none;
+    }
+    .promo_text {
+        width: auto;
+    }
+}
+
+
+@media screen and ( max-width: 780px ){
+    .two_buttons {
+        display: flex;
+    }
+    .product{
+        display: none;
+    }
+    .company {
+        display: none;
+    }
+    .logo_info {
+        width: 100%;
+    }
+}
+
+@media screen and ( max-width: 768px ) {
+
+    .text_info {
+        width: 60%;
+    }
+
+    .picturies {
+        display: none;
+    }
+
+    .promo_text {
+        width: auto
+    }
+
+    .window {
+        display: none;
+    }
+
+    .get-text{
+        width: 80%;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    }
+
+    .logo_info {
+        width: 100%;
+        margin-left: 2%;
+    }
+
+    .product {
+        padding-left: 5%;
+    }
+
+    .company {
+        padding-left: 4%;
+    }
+
+    .icon {
+        padding-left: 40%;
+    }
+}
+
+@media screen and ( max-width: 700px ) {
+    .promo img {
+        display: none;
+    }
+}
+
+@media screen and ( max-width: 560px ) {
+    .icon {
+        padding-left: 20%;
+    }
+}
+
+@media screen and ( max-width: 540px ) {
+    .features {
+        display: grid;
+    }
+}
+
+@media screen and ( max-width: 545px ) {
+    .menu button {
+        display: none;
+    }
+}
+
+@media screen and ( max-width: 425px ) {
+
+    .menu {
+        display: grid;
+        padding-top: 40px;
+    }
+
+    .menu button {
+        display: none;
+    }
+
+    .block {
+        margin-right: auto;
+        width: auto
+    }
+
+    .block h1 {
+        font-size: 60px;
+        line-height: normal;
+    }
+
+    .block p {
+        width: 100%;
+    }
+
+    .cl {
+        padding-bottom: 40px;
+        margin-right: auto;
+    }
+
+    .img {
+        display: none;
+    }
+
+    .features{
+        display: grid;
+    }
+
+    .text_info {
+
+        width: auto;
+    }
+
+    .info_img {
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .text_info h1 {
+        font-size: 46px;
+    }
+
+    .mr {
+        padding-bottom: 30px;
+    }
+
+    
+
+    .logo_info {
+        width: 100%;
+        margin-left: 4%;
+    }
+
+    .dowland_info {
+        padding-left: 20%;
+    }
+
+    .product {
+        display: none;
+    }
+
+    .company {
+        display: none;
+    }
+
+    .icon {
+        padding-left: 20%;
+    }
+}
+
+@media screen and ( max-width: 375px ) {
+ 
+    .logotip img {
+        width: auto;
+    }
+
+    .nav {
+        widows: 100%;
+    }
+
+    .nav li {
+        padding: 0 7%;
+    }
+
+
+
+    .dowland_info {
+        padding-left: 10%;
+    }
+
+    .footer_copyrate {
+        display: block;
+        padding-left: 20%;
+    }
+}
+
+@media screen and ( max-width: 320px ) {
+    .two_buttons {
+        display: block;
+        padding-left: 10%;
+    }
+
+    .learn {
+        margin-top: 30px;
+    }
+
+    .mail_button {
+        display: block;
+    }
+
+    .mail_button input {
+        width: auto;
+        margin-bottom: 30px;
+    }
+
+    .text_info h1 {
+        font-size: 36px;
+    }
+}
